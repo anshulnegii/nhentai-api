@@ -30,12 +30,12 @@ async function getChapters(doujin) {
 
 
 app.get('/', async (req, res) =>{
-    res.send('nhentai api 🌚')
+    res.send('<h2>nhentai api 🌚</h2>')
 })
 
 
 app.get('/api', async (req, res) =>{
-    res.send('now type your favourite doujin and get results 🌚')
+    res.send('<h2>now type your favourite doujin and get results 🌚<br> For example <a href="https://nhentai-api-pied.vercel.app/api/177013">https://nhentai-api-pied.vercel.app/api/177013</a><h2>')
 })
 
 
